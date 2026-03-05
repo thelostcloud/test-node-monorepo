@@ -6,4 +6,3 @@ dist/
 .vscode/settings.json
 .idea/
 build/
-pnpm-lock.yaml
