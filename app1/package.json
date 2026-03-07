@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "typescript": "^5.3.3",
-    "fast-xml-parser": "5.4.2"
+    "fast-xml-parser": "5.4.2",
+    "coveralls": "3.1.1"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"
