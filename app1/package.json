@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "typescript": "^5.3.3",
-    "fast-xml-parser": "5.4.2"
+    "fast-xml-parser": "5.4.2",
+    "minimatch":"10.2.2"
+    
   },
   "devDependencies": {
     "esbuild": "^0.25.0"
