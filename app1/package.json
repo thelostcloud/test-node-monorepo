@@ -13,7 +13,7 @@
   "dependencies": {
     "typescript": "^5.3.3",
     "fast-xml-parser": "5.4.2",
-    "minimatch":"10.2.2"
+    "minimatch":"10.2.3"
     
   },
   "devDependencies": {
