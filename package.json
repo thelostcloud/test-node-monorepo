@@ -14,7 +14,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "typescript": "^5.3.3",        
     "esbuild": "^0.28.0",
-    "lerna": "9.0.5"
+    "lerna": "9.0.7"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
