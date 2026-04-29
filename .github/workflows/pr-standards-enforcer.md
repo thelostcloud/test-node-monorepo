@@ -3,6 +3,7 @@ description: Enforce standards and best practices on pull requests
 on:
     pull_request:
         types: [opened, synchronize]
+    workflow_dispatch:
 engine:
     id: copilot
     model: gpt-5-mini
