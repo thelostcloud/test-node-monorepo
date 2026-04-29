@@ -19,6 +19,6 @@ For each of the following, you will emit a compliance reports at the end.
 - a pnpm-workspace.yaml must be present
 
 - the package.json at the root must contains the following script
-  - "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
-  - "dev": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js --watch",
+    - "lint": "eslint . --ext .ts",
+    - "lint:fix": "eslint . --ext .ts --fix"
 
