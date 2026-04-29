@@ -16,6 +16,8 @@ tools:
 safe-outputs:
     add-comment:
         max: 1
+    create-pull-request-review-comment:
+        max: 1
 network:
     allowed: [defaults, node]
 ---
@@ -47,5 +49,13 @@ To check compliance:
 4. For each requirement, determine if it passes or fails.
 
 Emit a compliance report as a comment on the pull request using the add-comment
-safe output. Format the report clearly, listing each check with pass/fail status
-and any details.
+safe output.
+
+**CRITICAL**: If ANY check fails, you MUST also request changes on the pull
+request using the create-pull-request-review-comment safe output with a clear
+message explaining what needs to be fixed. This will block the PR from being
+merged until the issues are resolved.
+
+Format the report clearly, listing each check with pass/fail status and any
+details. If failures exist, use the review comment to request changes and
+explain what needs to be fixed.
