@@ -5,7 +5,7 @@ on:
         types: [opened, synchronize]
 engine:
     id: copilot
-    model: gpt-4.1-mini
+    model: gpt-5-mini
 permissions:
     contents: read
     pull-requests: read
