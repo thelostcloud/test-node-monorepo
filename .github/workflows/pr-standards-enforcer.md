@@ -3,6 +3,9 @@ description: Enforce standards and best practices on pull requests
 on:
     pull_request:
         types: [opened, synchronize]
+engine:
+    id: copilot
+    model: gpt-4.1-mini
 permissions:
     contents: read
     pull-requests: read
