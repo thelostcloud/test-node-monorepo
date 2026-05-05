@@ -64,6 +64,8 @@ function main(): void {
   // Test code injection
   evaluateExpression('process.exit(1)');
 
+  const dyn = dynamicFunction("console.log('hello');")
+
   // Test unsafe file access
   try {
     const data = readUserFile('../../../etc/passwd');
