@@ -65,6 +65,7 @@ function main(): void {
   evaluateExpression('process.exit(1)');
 
   const dyn = dynamicFunction("console.log('hello');")
+  dyn();
 
   // Test unsafe file access
   try {
